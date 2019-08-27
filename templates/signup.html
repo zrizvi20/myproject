@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% block title %}Sign Up{% endblock title %}
+
+{% block content %}
+<h2> Sign up! Please select the type of account you want to create. </h2>
+	<form action="client-signup/">
+		{% csrf_token %}
+		<input type="submit" value="I'm a client." />
+	</form>
+	
+	
+	<form action="contractor-signup/">
+		{% csrf_token %}
+		<input type="submit" value="I'm a contractor." />
+	</form>
+	
+	
+	<form action="supervisor-signup/">
+		{% csrf_token %}
+		<input type="submit" value="I'm a project supervisor." />
+	</form>
+{% endblock content %}
