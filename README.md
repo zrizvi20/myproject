@@ -1,3 +1,3 @@
 # myproject
 
-a simple app for helping people collaborate on construction projects and manage them efficiently.
+a simple app for helping people collaborate on and manage construction projects efficiently.
